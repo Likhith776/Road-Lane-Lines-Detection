@@ -77,33 +77,6 @@ The lane line detection algorithm processes each image in several steps, and the
 
 Each of these steps contributes to isolating and highlighting the lane lines in the image. The final result showcases the detected lane lines overlaid on the original image, making it clear where the vehicle should stay within the lanes.
 
-#### Image Example
-Below is an example of the lane line detection process on a sample image:
-
-- Original Image:
-![Original Image](path/to/original_image.jpg)
-
-- After Color Selection:
-![Color Selection](path/to/color_selection_image.jpg)
-
-- After Grayscale Conversion:
-![Grayscale](path/to/grayscale_image.jpg)
-
-- After Gaussian Blur:
-![Gaussian Blur](path/to/gaussian_blur_image.jpg)
-
-- After Canny Edge Detection:
-![Canny Edge Detection](path/to/canny_edge_image.jpg)
-
-- After Region of Interest Selection:
-![Region of Interest](path/to/roi_image.jpg)
-
-- After Hough Transform:
-![Hough Transform](path/to/hough_transform_image.jpg)
-
-- Final Result with Lane Lines:
-![Lane Line Detection](path/to/final_result_image.jpg)
-
 ### Videos
 
 The lane line detection is also applied to video frames, processing each frame individually and combining them to produce a video with detected lane lines. The results for video processing are as follows:
