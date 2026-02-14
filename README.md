@@ -1,5 +1,5 @@
 
-# Lane Line Detection
+# Road Lane Lines Detection
 
 This repository contains a project for detecting lane lines in images and videos using various image processing techniques and computer vision algorithms. The main objective is to accurately identify the lane markings on roads in different conditions.
 
